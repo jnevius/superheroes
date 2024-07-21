@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Thor",
+        "description": "The powerful god of thunder and lightning.",
+        "age": 1500,
+        "superpowers": "Ripped abs, ability to smash empty beer glasses",
+        "image": "https://cdn.marvel.com/content/1x/004tho_ons_mas_mob_04.jpg",
+        "team": "Avengers"
+    },
+    {
+        "name": "Iron Man",
+        "description": "Genius. Billionaire. Phantom. Iron Man.",
+        "age": 48,
+        "superpowers": "Witty, cooler than you, also nerdier than you.",
+        "image": "https://static.wikia.nocookie.net/marveldatabase/images/f/fe/Avengers_Endgame_poster_041_Variant_Textless.jpg/revision/latest/scale-to-width-down/1200?cb=20190629185509",
+        "team": "Avengers"
+    },
+    {
+        "name": "Hulk",
+        "description": "The mighty Hulk, the strongest and most powerful creature in the Universe.",
+        "age": 36,
+        "superpowers": "Superhuman strength and durability...which he didn't use in Endgame at all.",
+        "image": "https://www.thefactsite.com/wp-content/uploads/2021/05/the-hulk-facts.jpg",
+        "team": "Avengers"
+    },
+    {
+        "name": "Black Widow",
+        "description": "The world's most skilled spy and assassin.",
+        "age": 29,
+        "superpowers": "Can punch and kick bad guys.",
+        "image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9a/BlackWidow-EndgameProfile.jpg/revision/latest/scale-to-width-down/1200?cb=20231025163748",
+        "team": "Avengers"
+    },
+    {
+        "name": "Hawkeye",
+        "description": "Master archer and marksman.",
+        "age": 33,
+        "superpowers": "Can punch and kick bad guys. Also, he can use a bow and arrow like a boy scout.",
+        "image": "https://images.immediate.co.uk/production/volatile/sites/3/2019/07/avengers-8bb66cd.jpg?quality=90&resize=727,485",
+        "team": "Avengers"
+    },
+    {
+        "name": "Scarlet Witch",
+        "description": "The witch with the power of magic and the essence of reality.",
+        "age": 150,
+        "superpowers": "Most emo of the crew. Super powerful. Super moody.",
+        "image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/97/Scarlet_Witch.jpg/revision/latest/scale-to-width-down/1200?cb=20231021153444",
+        "team": "Avengers"
+    },
+    {
+        "name": "Black Panther",
+        "description": "The king of Wakanda, the black panther.",
+        "age": 53,
+        "superpowers": "Crazy agile. Got his butt kicked once by by Killmonger.",
+        "image": "https://ironusa.vtexassets.com/arquivos/ids/192800/090357_1.jpg?v=637909345421770000",
+        "team": "Avengers"
+    },
+    {
+        "name": "Captain America",
+        "description": "The first Avenger and the leader of the Avengers.",
+        "age": 101,
+        "image": "https://cdn.britannica.com/30/182830-050-96F2ED76/Chris-Evans-title-character-Joe-Johnston-Captain.jpg",
+        "team": "Avengers"
+    },
+    {
+        "name": "Doctor Strange",
+        "description": "The master of the mystic arts and the sorceress of reality.",
+        "age": 45,
+        "image": "https://static.wikia.nocookie.net/ultimate-marvel-cinematic-universe/images/6/61/Doc.jpg/revision/latest?cb=20160117222945",
+        "team": "Avengers"
+    },
+    {
+        "name": "Spider-Man",
+        "description": "The friendly neighborhood Spider-Man.",
+        "age": 28,
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/ss_dfba6f2477bfa42be69ddfdffbd421d3943d20bf.1920x1080.jpg?t=1717621493",
+        "team": "Avengers"
+    },
+    {
+        "name": "Wolverine",
+        "description": "Hot-tempered, self-healing, I-do-it-on-my-own kind of mutant.",
+        "age": 130,
+        "image": "https://qph.cf2.quoracdn.net/main-qimg-35771a421fe69e87590fbee6ec0e3e82-lq",
+        "team": "X-Men"
+    }
+       
+]
