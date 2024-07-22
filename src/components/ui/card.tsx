@@ -1,6 +1,9 @@
 import * as React from "react"
+import { Space_Grotesk } from "next/font/google"
 
 import { cn } from "@/lib/utils"
+
+const grotesk = Space_Grotesk({ subsets: ['latin']})
 
 const Card = React.forwardRef<
   HTMLDivElement,
@@ -35,8 +38,8 @@ const CardTitle = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <h3
     ref={ref}
-    className={cn(
-      "text-2xl font-semibold leading-none tracking-tight",
+    className={cn(`${grotesk.className}
+      text-2xl font-semibold leading-none tracking-tight`,
       className
     )}
     {...props}
