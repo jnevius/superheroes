@@ -12,6 +12,7 @@ const nextConfig = {
       'shared.akamai.steamstatic.com',
       'qph.cf2.quoracdn.net',
       'pbs.twimg.com',
+      'i.annihil.us',
     ],
   },
 };

@@ -7,14 +7,14 @@ import homepic from "@/../../public/home.jpg";
 import logo from "@/../../public/Marvel.png";
 import xmen from "@/../../public/xmen.jpg";
 import pow_graphic from "@/../../public/pow-pic.png";
+import marvel2 from "@/../../public/marvel 2.jpg";
+import loki from "@/../../public/loki.jpg";
 import google from "@/../../public/google.png";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Space_Grotesk } from "next/font/google";
 import Link from "next/link";
-import { Separator } from "@/components/ui/separator";
 import { Checkbox } from "@/components/ui/checkbox";
-import { ArrowRightCircle } from "lucide-react";
 const grotesk = Space_Grotesk({
   variable: "--font-grotesk",
   subsets: ["latin"],
@@ -32,16 +32,31 @@ export default function Home() {
   return (
     <main className="flex min-h-screen min-w-full flex-col justify-between bg-slate-900">
       <div className="flex flex-row gap-4 h-screen">
+        <div className="flex flex-col gap-4">
+          <Image
+            src={marvel2}
+            alt="Superheroes"
+            className="h-2/3 w-full object-cover"
+          />
+          <Image
+            src={loki}
+            alt="Superheroes"
+            className="h-1/3 w-full object-cover object-top"
+          />
+        </div>
         <div className="bg-slate-50 flex flex-col w-full gap-8 p-36 justify-center items-start">
           <Image src={logo} alt="Marvel logo" height={80} />
           <div className="flex flex-col justify-start w-full gap-2">
-            <H1 className="text-8xl">Superpowered!</H1>
+            <H1 className="text-8xl">Sign Up</H1>
             <H2>
-              Select a team of Marvel Characters to describe your description to
-              your friends or team.
+              Create your account to get started
             </H2>
           </div>
           <div className="flex flex-col gap-4 w-full items-start justify-start">
+            <div className="flex flex-col gap-1 w-full">
+              <label>Name</label>
+              <Input className="focus-visible:ring-orange-400" type="email" />
+            </div>
             <div className="flex flex-col gap-1 w-full">
               <label>Email</label>
               <Input className="focus-visible:ring-orange-400" type="email" />
@@ -53,25 +68,38 @@ export default function Home() {
                 type="password"
               />
             </div>
-            <div className="flex flex-row gap-2 items-center mt-2">
-              <Checkbox className="border-slate-400" />
-              <p className="text-sm text-slate-400">Remember Me</p>
+            <div className="flex flex-col gap-1">
+              <div className="flex flex-row gap-2 items-center">
+                <Checkbox className="border-slate-400" />
+                <p className="text-sm text-slate-400">
+                  Sign up to stay in the loop for product updates and special
+                  offers?
+                </p>
+              </div>
+              <div className="flex flex-row gap-2 items-center">
+                <Checkbox className="border-slate-400" />
+                <p className="text-sm text-slate-400">
+                  Allow us to sell all of your account data to Russian hackers?
+                </p>
+              </div>
             </div>
           </div>
-          <div className="flex flex-col gap-5 w-full">
-            <Button type="button" onClick={powChange} className="w-full">
-              <Link href={"./builder"}>Sign In</Link>
-            </Button>
-            {pow && (
-              <Image
-                src={pow_graphic}
-                width={60}
-                height={60}
-                alt="POW!"
-                className="animate-ping"
-              />
-            )}
-            <p className="text-slate-400 text-center">or</p>
+          <div className="flex flex-col w-full gap-5">
+            <div className="flex flex-row gap-2 w-full">
+              <Button type="button" onClick={powChange} className="w-full">
+                <Link href={"./builder"}>Create Account</Link>
+              </Button>
+              {pow && (
+                <Image
+                  src={pow_graphic}
+                  width={60}
+                  height={60}
+                  alt="POW!"
+                  className="animate-ping"
+                />
+              )}
+            </div>
+            <p className="text-center">or</p>
             <Button
               type="button"
               variant={"outline"}
@@ -83,33 +111,12 @@ export default function Home() {
                 className="flex flex-row gap-2 items-center"
               >
                 <Image src={google} width={30} height={30} alt="Google" />
-                <p>Continue with Google</p>
+                <p>Sign Up with Google</p>
               </Link>
             </Button>
           </div>
-          <Separator className="mt-4" />
-          <Button className="text-slate-400" variant={"link"}>
-            <Link
-              href={"./new-account"}
-                className="flex flex-row gap-2 items-center"
-              >
-            <ArrowRightCircle className="mr-2" />
-            New to Superpowered? Create a New Account...
-            </Link>
-          </Button>
         </div>
-        <div className="flex flex-col w-full gap-4">
-          <Image
-            src={homepic}
-            alt="Superheroes"
-            className="h-2/3 w-full object-cover"
-          />
-          <Image
-            src={xmen}
-            alt="Superheroes"
-            className="h-1/3 w-full object-cover object-top"
-          />
-        </div>
+        
       </div>
     </main>
   );

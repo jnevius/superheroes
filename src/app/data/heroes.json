@@ -1,113 +1,157 @@
 [
-    {
-        "name": "Thor",
-        "description": "The god of thunder and lightning.",
-        "age": 1500,
-        "superpowers": "Hammer flight. Lightening hands.",
-        "personality": "Commands attention. Strong leader. Courageous.",
-        "pitfalls": "Over-confident. Easily duped by his brother.",
-        "image": "https://cdn.marvel.com/content/1x/004tho_ons_mas_mob_04.jpg",
-        "team": "Avengers"
-    },
-    {
-        "name": "Iron Man",
-        "description": "Genius. Billionaire. Playboy.",
-        "age": 48,
-        "superpowers": "Superhuman wit.",
-        "personality": "",
-        "pitfalls": "",
-        "image": "https://static.wikia.nocookie.net/marveldatabase/images/f/fe/Avengers_Endgame_poster_041_Variant_Textless.jpg/revision/latest/scale-to-width-down/1200?cb=20190629185509",
-        "team": "Avengers"
-    },
-    {
-        "name": "Hulk",
-        "description": "The mighty Hulk, the strongest and most powerful creature in the Universe.",
-        "age": 36,
-        "superpowers": "Superhuman strength and durability...which he didn't use in Endgame at all.",
-        "personality": "",
-        "pitfalls": "",
-        "image": "https://www.thefactsite.com/wp-content/uploads/2021/05/the-hulk-facts.jpg",
-        "team": "Avengers"
-    },
-    {
-        "name": "Black Widow",
-        "description": "The world's most skilled spy and assassin.",
-        "age": 29,
-        "superpowers": "Can punch and kick bad guys.",
-        "personality": "",
-        "pitfalls": "",
-        "image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9a/BlackWidow-EndgameProfile.jpg/revision/latest/scale-to-width-down/1200?cb=20231025163748",
-        "team": "Avengers"
-    },
-    {
-        "name": "Hawkeye",
-        "description": "Master archer and marksman.",
-        "age": 33,
-        "superpowers": "Can punch and kick bad guys. He can use a bow and arrow like a boy scout.",
-        "personality": "",
-        "pitfalls": "",
-        "image": "https://images.immediate.co.uk/production/volatile/sites/3/2019/07/avengers-8bb66cd.jpg?quality=90&resize=727,485",
-        "team": "Avengers"
-    },
-    {
-        "name": "Scarlet Witch",
-        "description": "The witch with the power of magic and the essence of reality.",
-        "age": 150,
-        "superpowers": "Most emo of the crew. Super powerful. Super moody.",
-        "personality": "",
-        "pitfalls": "",
-        "image": "https://pbs.twimg.com/media/FcUcMmBWQAAVC7W?format=jpg&name=4096x4096",
-        "team": "Avengers"
-    },
-    {
-        "name": "Black Panther",
-        "description": "The king of Wakanda, the black panther.",
-        "age": 53,
-        "superpowers": "Crazy agile. Got his butt kicked once by Killmonger.",
-        "personality": "",
-        "pitfalls": "",
-        "image": "https://ironusa.vtexassets.com/arquivos/ids/192800/090357_1.jpg?v=637909345421770000",
-        "team": "Avengers"
-    },
-    {
-        "name": "Captain America",
-        "description": "The first Avenger and the leader of the Avengers.",
-        "age": 101,
-        "superpowers": "Can use cheesiness to his advantage.",
-        "personality": "",
-        "pitfalls": "",
-        "image": "https://cdn.britannica.com/30/182830-050-96F2ED76/Chris-Evans-title-character-Joe-Johnston-Captain.jpg",
-        "team": "Avengers"
-    },
-    {
-        "name": "Doctor Strange",
-        "description": "The master of the mystic arts and the sorceress of reality.",
-        "age": 45,
-        "superpowers": "Makes really cool ringy things.",
-        "personality": "",
-        "pitfalls": "",
-        "image": "https://static.wikia.nocookie.net/ultimate-marvel-cinematic-universe/images/6/61/Doc.jpg/revision/latest?cb=20160117222945",
-        "team": "Avengers"
-    },
-    {
-        "name": "Spider-Man",
-        "description": "The friendly neighborhood Spider-Man.",
-        "age": 28,
-        "superpowers": "Somehow can shoot webs that attach to thin air so he can swing through the city.",
-        "personality": "",
-        "pitfalls": "",
-        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/ss_dfba6f2477bfa42be69ddfdffbd421d3943d20bf.1920x1080.jpg?t=1717621493",
-        "team": "Avengers"
-    },
-    {
-        "name": "Wolverine",
-        "description": "Hot-tempered, self-healing, I-do-it-on-my-own kind of mutant.",
-        "age": 130,
-        "superpowers": "Hugh Jackman's rugged handsomeness.",
-        "personality": "",
-        "pitfalls": "",
-        "image": "https://qph.cf2.quoracdn.net/main-qimg-35771a421fe69e87590fbee6ec0e3e82-lq",
-        "team": "X-Men"
-    }
-       
+  {
+    "name": "Thor",
+    "bio": "The god of thunder and lightning.",
+    "description": "As the Norse God of thunder and lightning, Thor wields one of the greatest weapons ever made, the enchanted hammer Mjolnir. While others have described Thor as an over-muscled, oafish imbecile, he's quite smart and compassionate.  He's self-assured, and he would never, ever stop fighting for a worthwhile cause.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/d/d0/5269657a74350.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Iron Man",
+    "bio": "Genius. Billionaire. Playboy.",
+    "description": "Wounded, captured and forced to build a weapon by his enemies, billionaire industrialist Tony Stark instead created an advanced suit of armor to save his life and escape captivity. Now with a new outlook on life, Tony uses his money and intelligence to make the world a safer, better place as Iron Man.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/9/c0/527bb7b37ff55.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Hulk",
+    "bio": "The mighty Hulk, the strongest and most powerful creature in the Universe.",
+    "description": "Caught in a gamma bomb explosion while trying to save the life of a teenager, Dr. Bruce Banner was transformed into the incredibly powerful creature called the Hulk. An all too often misunderstood hero, the angrier the Hulk gets, the stronger the Hulk gets.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/5/a0/538615ca33ab0.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Black Widow",
+    "bio": "The world's most skilled spy and assassin.",
+    "description": "As a master spy and skilled combatant, Black Widow, also known as Natasha Romanoff, excels in espionage and martial arts. Despite her dark past, she is intelligent, resourceful, and fiercely loyal. A true hero, she continually fights for justice and redemption.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/f/30/50fecad1f395b.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Hawkeye",
+    "bio": "Master archer and marksman.",
+    "description": "As a world-class archer and master marksman, Hawkeye, also known as Clint Barton, is a vital member of the Avengers. With unmatched precision and combat skills, he stands as a steadfast hero. Despite lacking superpowers, his determination, courage, and loyalty make him an indispensable ally in the fight for justice.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/e/90/50fecaf4f101b.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Scarlet Witch",
+    "bio": "The witch with the power of magic and the essence of reality.",
+    "description": "As a powerful sorceress, Scarlet Witch, also known as Wanda Maximoff, wields immense magical abilities and chaos magic. Her strength and resilience are matched by her deep compassion and fierce loyalty to those she loves. Despite facing immense personal challenges, she remains dedicated to protecting the world and seeking justice.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/6/70/5261a7d7c394b.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Black Panther",
+    "bio": "The king of Wakanda, the black panther.",
+    "description": "As the king of Wakanda and the Black Panther, T’Challa possesses superhuman abilities granted by the Heart-Shaped Herb. A brilliant strategist and warrior, he combines his advanced technology with traditional combat skills. With a strong sense of justice and responsibility, he tirelessly works to protect his people and the world, embodying both a regal leader and a fierce hero.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/6/60/5261a80a67e7d.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Captain America",
+    "bio": "The first Avenger and the leader of the Avengers.",
+    "description": "Vowing to serve his country any way he could, young Steve Rogers took the super soldier serum to become America's one-man army. Fighting for the red, white and blue for over 60 years, Captain America is the living, breathing symbol of freedom and liberty.",
+
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/3/50/537ba56d31087.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Doctor Strange",
+    "bio": "The master of the mystic arts and the sorceress of reality.",
+    "description": "As the Sorcerer Supreme, Doctor Strange, also known as Stephen Strange, masters the mystic arts to protect Earth from magical and interdimensional threats. Once a brilliant but arrogant surgeon, his journey through tragedy and enlightenment transformed him into a wise and powerful sorcerer. With his vast knowledge and unwavering dedication, he stands as a guardian against the dark forces that threaten reality.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/5/f0/5261a85a501fe.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Spider-Man",
+    "bio": "The friendly neighborhood Spider-Man.",
+    "description": "Bitten by a radioactive spider, high school student Peter Parker gained the speed, strength and powers of a spider. Adopting the name Spider-Man, Peter hoped to start a career using his new abilities. Taught that with great power comes great responsibility, Spidey has vowed to use his powers to help people.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/3/50/526548a343e4b.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Wolverine",
+    "bio": "Hot-tempered, self-healing, I-do-it-on-my-own kind of mutant.",
+    "description": "Born with super-human senses and the power to heal from almost any wound, Wolverine was captured by a secret Canadian organization and given an unbreakable skeleton and claws. Treated like an animal, it took years for him to control himself. Now, he's a premiere member of both the X-Men and the Avengers.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/2/60/537bcaef0f6cf.jpg",
+    "team": "X-Men"
+  },
+  {
+    "name": "Cyclops",
+    "bio": "Leader of X-Men",
+    "description": "As the leader of the X-Men, Cyclops, also known as Scott Summers, possesses the powerful ability to emit optic blasts from his eyes. A natural leader and tactician, he is dedicated to the dream of peaceful coexistence between humans and mutants. Despite his often serious demeanor, his commitment to his team and their mission is unwavering, making him a pivotal figure in the fight for mutant rights and justice.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/6/70/526547e2d90ad.jpg",
+    "team": "X-Men"
+  },
+  {
+    "name": "Gambit",
+    "bio": "Cajun card dealer",
+    "description": "As a charming and skilled mutant, Gambit, also known as Remy LeBeau, has the ability to charge objects with kinetic energy, causing them to explode. A master thief with a roguish charm, he combines his agility and combat prowess with his unique powers. Despite his checkered past, Gambit’s loyalty to the X-Men and his quest for redemption define him as a complex and intriguing hero.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/a/40/52696aa8aee99.jpg",
+    "team": "X-Men"
+  },
+  {
+    "name": "Beast",
+    "bio": "Powerful scientist",
+    "description": "As a brilliant scientist and a founding member of the X-Men, Beast, also known as Hank McCoy, combines his superhuman strength and agility with his vast intellect. His blue, furry appearance belies his gentle nature and scholarly demeanor. Dedicated to the advancement of mutant rights and scientific discovery, Beast continually strives to bridge the gap between humans and mutants through his wisdom, compassion, and unwavering commitment to justice.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/2/80/511a79a0451a3.jpg",
+    "team": "X-Men"
+  },
+  {
+    "name": "Magneto",
+    "bio": "Main nemesis of X-Men",
+    "description": "As one of the most powerful mutants, Magneto, also known as Erik Lehnsherr, possesses the ability to control magnetic fields. A complex and often controversial figure, his traumatic past and belief in mutant superiority drive his relentless pursuit of mutant rights. While his methods are extreme, his ultimate goal is to ensure the survival and dominance of mutants, making him both a formidable adversary and a deeply principled leader.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/3/b0/5261a7e53f827.jpg",
+    "team": "X-Men"
+  },
+  {
+    "name": "Thanos",
+    "bio": "Utilitarian Mad Titan",
+    "description": "The Mad Titan Thanos, a melancholy, brooding individual, consumed with the concept of death, sought out personal power and increased strength, endowing himself with cybernetic implants until he became more powerful than any of his brethren.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/6/40/5274137e3e2cd.jpg",
+    "team": "Kree"
+  },
+  {
+    "name": "Star-Lord",
+    "bio": "Leader of Guardians of the Galaxy",
+    "description": "Refusing to miss his opportunity, Peter Jason Quill stole a scoutship from Cape Canaveral, returned to Eve, and shot his way to the appointed spot, where his old rival Harrelson, NASA's choice to be Star-Lord, was awaiting selection, where Quill was transported away in his stead, and transformed into Star-Lord.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/9/a0/537bc55e8b1f5.jpg",
+    "team": "Guardians"
+  },
+  {
+    "name": "Loki",
+    "bio": "God of Mischief",
+    "description": "As the God of Mischief, Loki is a master of illusion and cunning with a knack for manipulating both allies and foes. Though often seen as a trickster and a villain, his complex motives and intricate schemes reveal a deeply layered character. Driven by a desire for recognition and power, Loki’s actions, while often self-serving, are intertwined with moments of unexpected compassion and deeper struggles with his identity and place in the world.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/d/90/526547f509313.jpg",
+    "team": "Asguardian"
+  },
+  {
+    "name": "Captain Marvel",
+    "bio": "N/A",
+    "description": "As Captain Marvel, Carol Danvers is an intergalactic hero with superhuman strength, energy projection, and flight abilities. A former U.S. Air Force pilot turned cosmic champion, she is known for her fierce determination and unyielding bravery. Driven by a sense of duty and justice, Captain Marvel stands as a powerful defender of the universe, blending military precision with an unbreakable spirit.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/6/80/5269608c1be7a.jpg",
+    "team": "Avengers"
+  },
+  {
+    "name": "Juggernaut",
+    "bio": "N/A",
+    "description": "As the unstoppable force known as Juggernaut, Cain Marko possesses immense superhuman strength and invulnerability, making him a nearly indomitable powerhouse. Driven by a thirst for vengeance and personal gain, his colossal size and power often put him at odds with heroes and villains alike. Despite his fearsome exterior, Juggernaut’s motivations are deeply rooted in a complicated past and a relentless drive for respect and recognition.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/5/c0/528d340442cca.jpg",
+    "team": "Brotherhood"
+  },
+  {
+    "name": "Green Goblin",
+    "bio": "N/A",
+    "description": "As the Green Goblin, Norman Osborn is a brilliant but unstable inventor with a vendetta against Spider-Man. Equipped with advanced technology and a signature goblin-themed suit, he uses his intellect and formidable gadgets to orchestrate chaos. Driven by a twisted sense of ambition and madness, Green Goblin’s complex personality combines ruthless ambition with moments of deep personal conflict and derangement.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/e/f0/4cd05ee55faa2.jpg",
+    "team": "Sinister Six"
+  },
+  {
+    "name": "Mysterio",
+    "bio": "N/A",
+    "description": "As Mysterio, Quentin Beck is a master illusionist and special effects artist with the ability to create elaborate, convincing illusions. His expertise in visual deception and his penchant for theatricality make him a formidable foe for Spider-Man. Motivated by a desire for fame and revenge, Mysterio’s intricate schemes and manipulative tactics reflect his deep-seated need for recognition and control, making him a captivating and dangerous adversary.",
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/6/70/4ce5a083d8346.jpg",
+    "team": "Sinister Six"
+  }
 ]

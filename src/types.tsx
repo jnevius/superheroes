@@ -1,13 +1,22 @@
 export type HeroCardProps = {
   name?: string;
   superpowers?: string;
+  bio?: string;
   description?: string;
-  personality?: string;
-  pitfalls?: string;
-  imageUrl: string;
+  thumbnail: string;
   children?: React.ReactNode;
+  isSelected?: boolean;
+  className?: string;
+};
+
+export type BlankCardProps = {
+  children?: React.ReactNode;
+  className?: string;
+  isWeakness?: boolean;
 };
 
 export type HeroGridProps = {
   children?: React.ReactNode;
+  className?: string;
+  isEmpty?: boolean;
 };
