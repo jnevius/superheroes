@@ -47,7 +47,16 @@ export default function Home() {
         <div className="bg-slate-50 flex flex-col w-full gap-8 p-36 justify-center items-start">
           <Image src={logo} alt="Marvel logo" height={80} />
           <div className="flex flex-col justify-start w-full gap-2">
-            <H1 className="text-8xl">Sign Up</H1>
+            <div className="flex flex-row items-center gap-2">
+              <H1 className="text-8xl">Sign Up</H1>
+              <Image
+                  src={pow_graphic}
+                  height={40}
+                  width={70}
+                  alt="POW!"
+                  className="flex flex-row w-[50px] h-[40px] rotate-12"
+                />
+            </div>
             <H2>
               Create your account to get started
             </H2>
@@ -89,15 +98,6 @@ export default function Home() {
               <Button type="button" onClick={powChange} className="w-full">
                 <Link href={"./builder"}>Create Account</Link>
               </Button>
-              {pow && (
-                <Image
-                  src={pow_graphic}
-                  width={60}
-                  height={60}
-                  alt="POW!"
-                  className="animate-ping"
-                />
-              )}
             </div>
             <p className="text-center">or</p>
             <Button

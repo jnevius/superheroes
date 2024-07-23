@@ -59,24 +59,14 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col gap-5 w-full">
-            <Button type="button" onClick={powChange} className="w-full">
+            <Button type="button" className="w-full">
               <Link href={"./builder"}>Sign In</Link>
             </Button>
-            {pow && (
-              <Image
-                src={pow_graphic}
-                width={60}
-                height={60}
-                alt="POW!"
-                className="animate-ping"
-              />
-            )}
             <p className="text-slate-400 text-center">or</p>
             <Button
               type="button"
               variant={"outline"}
               className="flex flex-row justify-center h-fit w-full"
-              onClick={powChange}
             >
               <Link
                 href={"./builder"}

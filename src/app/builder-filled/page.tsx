@@ -48,7 +48,7 @@ export default function Builder() {
           <H2 className="font-semibold">SUPERPOWERED!</H2>
         </div>
         <div className="flex flex-row gap-3 items-center">
-          <Link href={"./builder-filled"}><Button variant={'outline'}><Eye size={16} className="mr-2" />Filled Out</Button></Link>
+          <Link href={"./builder"}><Button variant={'outline'}><Eye size={16} className="mr-2" />Empty</Button></Link>
           <Avatar className="hover:ring-2 hover:ring-orange-500 cursor-pointer">
             <AvatarImage
               className="object-cover"
@@ -159,11 +159,30 @@ export default function Builder() {
               </Card>
             </div>
             <HeroGridSelected>
-              <HeroCardEmpty />
-              <HeroCardEmpty />
-              <HeroCardEmpty />
-              <HeroCardEmpty isWeakness />
+              {heroes.slice(0, 4).map((hero) => (
+                <HeroCard
+                  key={uuidv4()}
+                  name={hero.name}
+                  description={hero.description}
+                  thumbnail={hero.thumbnail}
+                  isSelected={true}
+                  className="bg-slate-800 text-slate-50"
+                />
+              ))}
             </HeroGridSelected>
+            {/* <Card>
+              <CardHeader>
+                <CardTitle>
+                  <div className="flex flex-row items-center gap-1">
+                    Summary <Sparkles size={16} className="text-orange-400" />
+                  </div>
+                </CardTitle>
+                <CardDescription>
+                  Begin adding characters to your team to see a summary of
+                  superpowered you!
+                </CardDescription>
+              </CardHeader>
+            </Card> */}
           </div>
         </div>
 
