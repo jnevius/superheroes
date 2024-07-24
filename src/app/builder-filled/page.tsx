@@ -150,18 +150,6 @@ export default function Builder() {
             </H2>
           </div>
           <div className="flex flex-col gap-4">
-            {/* <HeroGridSelected isEmpty />
-                {heroes.slice(0, 4).map((hero) => (
-                  <HeroCard
-                    key={uuidv4()}
-                    name={hero.name}
-                    description={hero.description}
-                    thumbnail={hero.thumbnail}
-                    isSelected={true}
-                  />
-                  ))
-                }
-              </HeroGridSelected> */}
             <div className="grid grid-cols-4 gap-5">
               <Card className="flex flex-row items-center gap-2 border-none shadow-none bg-slate-50">
                 <BicepsFlexed className="text-orange-400" />
@@ -192,19 +180,6 @@ export default function Builder() {
                 />
               ))}
             </HeroGridSelected>
-            {/* <Card>
-              <CardHeader>
-                <CardTitle>
-                  <div className="flex flex-row items-center gap-1">
-                    Summary <Sparkles size={16} className="text-orange-400" />
-                  </div>
-                </CardTitle>
-                <CardDescription>
-                  Begin adding characters to your team to see a summary of
-                  superpowered you!
-                </CardDescription>
-              </CardHeader>
-            </Card> */}
           </div>
         </div>
 
