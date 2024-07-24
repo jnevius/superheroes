@@ -105,7 +105,7 @@ export default function Builder() {
                       Thunderstrike, formerly known as Joel Nevius, gained
                       superhuman powers through a gamma-nanotech accident in
                       Phoenix. Wielding cosmic-powered armor that channels
-                      lightning, Thunderstrike's strength grows with emotion. A
+                      lightning, Thunderstrike&apos;s strength grows with emotion. A
                       brilliant strategist and espionage expert, they battle
                       inner demons while fiercely protecting humanity. This
                       complex hero embodies raw power, intellect, and unwavering
@@ -213,7 +213,7 @@ export default function Builder() {
             <H1 className="text-4xl">Search Superheroes </H1>
             <H2 className="text-lg">
               Find and select up to 4 superheroes to create a superpowered you.
-              Click '+' button and then assign it to your superpowers or
+              Click &apos;+&apos; button and then assign it to your superpowers or
               weakness.
             </H2>
           </div>
