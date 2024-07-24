@@ -95,23 +95,31 @@ export default function Home() {
           </div>
           <div className="flex flex-col w-full gap-5">
             <div className="flex flex-row gap-2 w-full">
-              <Button type="button" onClick={powChange} className="w-full">
-                <Link href={"./builder"}>Create Account</Link>
-              </Button>
+            <Button 
+              type="button" 
+              className="flex flex-col w-full">
+                <Link 
+                href={"./builder"}
+                className="flex flex-col w-full"
+                >
+                  <p>Create Account</p>
+                </Link>
+            </Button>
             </div>
             <p className="text-center">or</p>
             <Button
               type="button"
               variant={"outline"}
               className="flex flex-row justify-center h-fit w-full"
-              onClick={powChange}
             >
               <Link
                 href={"./builder"}
-                className="flex flex-row gap-2 items-center"
+                className="flex flex-col w-full"
               >
-                <Image src={google} width={30} height={30} alt="Google" />
-                <p>Sign Up with Google</p>
+                <div className="flex flex-row gap-2 items-center justify-center">
+                  <Image src={google} width={30} height={30} alt="Google" />
+                  <p>Sign Up with Google</p>
+                </div>
               </Link>
             </Button>
           </div>

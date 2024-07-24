@@ -59,8 +59,15 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col gap-5 w-full">
-            <Button type="button" className="w-full">
-              <Link href={"./builder"}>Sign In</Link>
+            <Button 
+              type="button" 
+              className="flex flex-col w-full">
+                <Link 
+                href={"./builder"}
+                className="flex flex-col w-full"
+                >
+                  <p>Sign In</p>
+                </Link>
             </Button>
             <p className="text-slate-400 text-center">or</p>
             <Button
@@ -70,15 +77,20 @@ export default function Home() {
             >
               <Link
                 href={"./builder"}
-                className="flex flex-row gap-2 items-center"
+                className="flex flex-col w-full"
               >
-                <Image src={google} width={30} height={30} alt="Google" />
-                <p>Continue with Google</p>
+                <div className="flex flex-row gap-2 items-center justify-center">
+                  <Image src={google} width={30} height={30} alt="Google" />
+                  <p>Continue with Google</p>
+                </div>
               </Link>
             </Button>
           </div>
           <Separator className="mt-4" />
-          <Button className="text-slate-400" variant={"link"}>
+          <Button 
+            className="text-slate-400" 
+            variant={"link"}
+            >
             <Link
               href={"./new-account"}
                 className="flex flex-row gap-2 items-center"
