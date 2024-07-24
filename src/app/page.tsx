@@ -37,7 +37,7 @@ export default function Home() {
           <div className="flex flex-col justify-start w-full gap-2">
             <H1 className="text-8xl">Superpowered!</H1>
             <H2>
-              Select a team of Marvel Characters to describe your description to
+              Create a team of Marvel Characters to express your personality traits to
               your friends or team.
             </H2>
           </div>

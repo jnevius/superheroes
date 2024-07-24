@@ -16,7 +16,7 @@ import {
 import heroes from "@/app/data/heroes.json";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { BicepsFlexed, Eye, IterationCw, PlusCircle, Save, Send, Slack, Sparkles, TrendingDown } from "lucide-react";
+import { BicepsFlexed, Eye, IterationCw, LifeBuoy, LogOut, PlusCircle, Save, Send, Slack, Sparkles, TrendingDown } from "lucide-react";
 import {
   HeroCard,
   HeroCardEmpty,
@@ -27,6 +27,7 @@ import {
 import { v4 as uuidv4 } from "uuid";
 import { Dialog, DialogContent, DialogHeader, DialogTrigger } from "@/components/ui/dialog";
 import Link from "next/link";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
 export default function Builder() {
   
@@ -48,14 +49,38 @@ export default function Builder() {
           <H2 className="font-semibold">SUPERPOWERED!</H2>
         </div>
         <div className="flex flex-row gap-3 items-center">
-          <Link href={"./builder"}><Button variant={'outline'}><Eye size={16} className="mr-2" />Empty</Button></Link>
-          <Avatar className="hover:ring-2 hover:ring-orange-500 cursor-pointer">
-            <AvatarImage
-              className="object-cover"
-              src="https://images.unsplash.com/photo-1463453091185-61582044d556?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            />
-            <AvatarFallback>TH</AvatarFallback>
-          </Avatar>
+          <Link href={"./builder"}>
+            <Button variant={"outline"}>
+              <Eye size={16} className="mr-2" />
+              Empty
+            </Button>
+          </Link>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="focus:border-none active:border-none focus:ring-0 active:ring-0">
+              <Avatar className="hover:ring-2 hover:ring-orange-500 cursor-pointer">
+                <AvatarImage
+                  className="object-cover"
+                  src="https://images.unsplash.com/photo-1463453091185-61582044d556?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                />
+                <AvatarFallback>TH</AvatarFallback>
+              </Avatar>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="p-4 w-[200px]">
+              <p className="text-sm text-slate-600">Signed in as</p>
+              <p className="text-sm font-semibold">Joel Nevius</p>
+              <DropdownMenuSeparator />
+              <DropdownMenuGroup>
+                <DropdownMenuItem className="flex flex-row gap-2 py-2">
+                  <LifeBuoy size={16} />
+                  Help
+                </DropdownMenuItem>
+                <DropdownMenuItem className="flex flex-row gap-2 py-2">
+                  <LogOut size={16} />
+                  Logout
+                </DropdownMenuItem>
+              </DropdownMenuGroup>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
       </section>
 
@@ -69,14 +94,12 @@ export default function Builder() {
               <div className="flex flex-row gap-2">
                 <Dialog>
                   <DialogTrigger className="flex flex-row items-center bg-orange-400 text-slate-50 rounded-md gap-1 px-4 hover:bg-orange-400/70">
-
-                      <Sparkles size={16} className="mr-1" />
-                      Generate Summary
-
+                    <Sparkles size={16} className="mr-1" />
+                    Generate Superpowered Me
                   </DialogTrigger>
                   <DialogContent>
                     <DialogHeader className="text-2xl font-semibold">
-                      Superpowered You
+                      Superpowered Joel
                     </DialogHeader>
                     <p>
                       Thunderstrike, formerly known as Joel Nevius, gained
@@ -96,12 +119,7 @@ export default function Builder() {
                       className="rounded-lg"
                     />
                     <div className="flex flex-row gap-2 items-center justify-center">
-                      <Image
-                      src={marvel}
-                      alt="Marvel"
-                      height={50}
-                      width={80}
-                      />
+                      <Image src={marvel} alt="Marvel" height={50} width={80} />
                       <p>Welcome to the Marvel Universe!</p>
                     </div>
                     <div className="flex flex-col gap-1">
@@ -116,8 +134,12 @@ export default function Builder() {
                     </div>
                   </DialogContent>
                 </Dialog>
-                <Button variant={"secondary"}><Save size={16}/></Button>
-                <Button variant={"secondary"}><IterationCw size={16} /></Button>
+                <Button variant={"secondary"}>
+                  <Save size={16} />
+                </Button>
+                <Button variant={"secondary"}>
+                  <IterationCw size={16} />
+                </Button>
               </div>
             </div>
             <H2 className="text-lg">

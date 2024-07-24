@@ -16,7 +16,7 @@ import {
 import heroes from "@/app/data/heroes.json";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { BicepsFlexed, Eye, IterationCw, PlusCircle, Save, Send, Slack, Sparkles, TrendingDown } from "lucide-react";
+import { BicepsFlexed, Eye, HelpCircle, IterationCw, LifeBuoy, LogOut, PlusCircle, Save, Send, Slack, Sparkles, TrendingDown } from "lucide-react";
 import {
   HeroCard,
   HeroCardEmpty,
@@ -27,6 +27,7 @@ import {
 import { v4 as uuidv4 } from "uuid";
 import { Dialog, DialogContent, DialogHeader, DialogTrigger } from "@/components/ui/dialog";
 import Link from "next/link";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
 export default function Builder() {
   
@@ -49,13 +50,26 @@ export default function Builder() {
         </div>
         <div className="flex flex-row gap-3 items-center">
           <Link href={"./builder-filled"}><Button variant={'outline'}><Eye size={16} className="mr-2" />Filled Out</Button></Link>
-          <Avatar className="hover:ring-2 hover:ring-orange-500 cursor-pointer">
-            <AvatarImage
-              className="object-cover"
-              src="https://images.unsplash.com/photo-1463453091185-61582044d556?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            />
-            <AvatarFallback>TH</AvatarFallback>
-          </Avatar>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="focus:border-none active:border-none focus:ring-0 active:ring-0">
+                <Avatar className="hover:ring-2 hover:ring-orange-500 cursor-pointer">
+                  <AvatarImage
+                    className="object-cover"
+                    src="https://images.unsplash.com/photo-1463453091185-61582044d556?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  />
+                  <AvatarFallback>TH</AvatarFallback>
+                </Avatar>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="p-4 w-[200px]">
+                <p className="text-sm text-slate-600">Signed in as</p>
+                <p className="text-sm font-semibold">Joel Nevius</p>
+                <DropdownMenuSeparator />
+                <DropdownMenuGroup>
+                  <DropdownMenuItem className="flex flex-row gap-2 py-2"><LifeBuoy size={16} />Help</DropdownMenuItem>
+                  <DropdownMenuItem className="flex flex-row gap-2 py-2"><LogOut size={16} />Logout</DropdownMenuItem>
+                </DropdownMenuGroup>
+              </DropdownMenuContent>
+            </DropdownMenu>
         </div>
       </section>
 
@@ -68,10 +82,10 @@ export default function Builder() {
               </H1>
               <div className="flex flex-row gap-2">
                 <Dialog>
-                  <DialogTrigger className="flex flex-row items-center bg-orange-400 text-slate-50 rounded-md gap-1 px-4 hover:bg-orange-400/70">
+                  <DialogTrigger disabled className="flex flex-row text-slate-200 border-[1px] items-center rounded-md gap-1 px-4 cursor-not-allowed">
 
                       <Sparkles size={16} className="mr-1" />
-                      Generate Summary
+                      Generate Superpowered Me
 
                   </DialogTrigger>
                   <DialogContent>
