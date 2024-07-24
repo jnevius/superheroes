@@ -2,6 +2,10 @@
 ### A Marvel-themed teambuilding app for teams.
 *A design/dev project for Showit, by Joel Nevius*
 
+Link to prototype: https://superpowered.vercel.app/
+Link to design process: https://www.figma.com/design/UKABKL1cSLyZLkFb5qnuVK/Superpowered!?node-id=0-1
+Link to Loom:  https://www.loom.com/share/e5bbd9842df74a86a68324f784caae2b?sid=3bf5ca8d-44a7-4646-901c-5713e81211fe
+
 ## 1. Built With
 - Framework: NextJS
 - Styling: Tailwind
@@ -31,7 +35,3 @@
   - There's a button in the top bar toggle these views ("Filled Out & Empty, respectively). These buttons would be not be included in the actual product.
 - Search bar is functional, but I relied a lot on my copilot for that.
 - Did not invest much time to understand how to hook up API. I indexed on the design, as I looked at the available data fields from the API to build the cards. Created my own JSON file for data.
-
-## 4. Next Versions of Product
-
-## 5. What new things did I learn how to do?
