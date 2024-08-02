@@ -1,6 +1,6 @@
 # README:  Superpowered! 
 ### A Marvel-themed teambuilding app for teams.
-*A design/dev project for Showit, by Joel Nevius*
+*A design/dev project by Joel Nevius*
 
 Link to prototype: https://superpowered.vercel.app/
 Link to design process: https://www.figma.com/design/UKABKL1cSLyZLkFb5qnuVK/Superpowered!?node-id=0-1
